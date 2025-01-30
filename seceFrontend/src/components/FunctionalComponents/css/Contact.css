@@ -1,0 +1,33 @@
+.contact-container {
+    background-image: url('/contact-us-1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding for top and bottom */
+    color: #fff;
+    height: 100vh; /* Ensure the background image covers the entire viewport height */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .contact-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Adjust the width for responsiveness */
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .contact-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content p {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block; /* Ensure each paragraph is displayed in separate lines */
+  }
+  
